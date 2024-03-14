@@ -1,0 +1,21 @@
+{% extends "App/padre.html"%}
+
+{% block titulo %}
+
+<h1>BUSCAR UN PROFESOR</h1>
+
+{% endblock %}
+
+{% block descripcion %}
+
+
+<form action="/App/resultados/" method="GET">
+
+    Ingrese el Profesor que desea buscar: <input type="text" name="nombre_profesor">
+
+    <input type="submit" value="Buscar">
+
+
+</form>
+
+{% endblock %}
